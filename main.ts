@@ -765,9 +765,12 @@ imageMap = {
 
 
 
-//% color=190 weight=100 icon="\uf894" block="Better Text"
+//% color=190 weight=100 icon="\uf031" block="Better Text"
 namespace betterText {
-    //% block
+    //% block="show text $value with interval $interval ms and pause $pause ms and spacer $spacer between characters"
+    //% interval.defl=250
+    //% pause.defl=0
+    //% spacer.defl=1
     export function showText(value: string, interval = 250, pause = 0, spacer: number) {
         for (let i = 0; i < value.length; i++) {
             const char = value.charAt(i);
