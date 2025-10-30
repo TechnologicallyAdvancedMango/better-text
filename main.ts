@@ -10,90 +10,90 @@ const emptyImg = images.createImage(`
 const betterChars: Image[] = [];
 
 const betterZero = images.createImage(`
-. . # . .
-. # . # .
-. # . # .
-. # . # .
-. . # . .
+. # . . .
+# . # . .
+# . # . .
+# . # . .
+. # . . .
 `)
 
 const betterOne = images.createImage(`
-. . # . .
-. # # . .
-. . # . .
-. . # . .
-. # # # .
+. # . . .
+# # . . .
+. # . . .
+. # . . .
+# # # . .
 `)
 const betterTwo = images.createImage(`
+. # . . .
+# . # . .
 . . # . .
-. # . # .
-. . . # .
-. . # . .
-. # # # .
+. # . . .
+# # # . .
 `)
 const betterThree = images.createImage(`
+# # . . .
+. . # . .
 . # # . .
-. . . # .
-. . # # .
-. . . # .
-. # # . .
+. . # . .
+# # . . .
 `)
 const betterFour = images.createImage(`
-. # . # .
-. # . # .
-. # # # .
-. . . # .
-. . . # .
+# . # . .
+# . # . .
+# # # . .
+. . # . .
+. . # . .
 `)
 const betterFive = images.createImage(`
-. # # # .
-. # . . .
-. # # . .
-. . . # .
-. # # . .
+# # # . .
+# . . . .
+# # . . .
+. . # . .
+# # . . .
 `)
 const betterSix = images.createImage(`
-. . # # .
-. # . . .
 . # # . .
-. # . # .
-. . # . .
+# . . . .
+# # # . .
+# . # . .
+. # . . .
 `)
 const betterSeven = images.createImage(`
-. # # # .
-. . . # .
+# # # . .
 . . # . .
-. . # . .
-. . # . .
+. # . . .
+. # . . .
+. # . . .
 `)
 const betterEight = images.createImage(`
-. # # # .
-. # . # .
-. . # . .
-. # . # .
-. # # # .
+# # # . .
+# . # . .
+. # . . .
+# . # . .
+# # # . .
 `)
 const betterNine = images.createImage(`
+. # . . .
+# . # . .
+. # # . .
 . . # . .
-. # . # .
-. . # # .
-. . . # .
-. . . # .
+. . # . .
 `)
 
 const betterA = images.createImage(`
-. . # . .
-. # . # .
-. # # # .
-. # . # .
-. # . # .
+. # . . .
+# . # . .
+# # # . .
+# . # . .
+# . # . .
 `)
 const betterB = images.createImage(`
-. # # . .
-. # . # .
-. # # . .
-. # . # .
-. # # . .
+# # . . .
+# . # . .
+# # . . .
+# . # . .
+# # . . .
 `)
 const betterC = images.createImage(`
 . # # # .
@@ -103,67 +103,67 @@ const betterC = images.createImage(`
 . # # # .
 `)
 const betterD = images.createImage(`
-. # # # .
-. # . . #
-. # . . #
-. # . . #
-. # # # .
+# # # . .
+# . . # .
+# . . # .
+# . . # .
+# # # . .
 `)
 const betterE = images.createImage(`
-. # # # .
-. # . . .
-. # # . .
-. # . . .
-. # # # .
+# # # . .
+# . . . .
+# # . . .
+# . . . .
+# # # . .
 `)
 const betterF = images.createImage(`
-. # # # .
-. # . . .
-. # # . .
-. # . . .
-. # . . .
+# # # . .
+# . . . .
+# # . . .
+# . . . .
+# . . . .
 `)
 const betterG = images.createImage(`
-. # # # .
+. # # . .
 # . . . .
-# . . # #
-# . . . #
-. # # # .
+# . # # .
+# . . # .
+. # # . .
 `)
 const betterH = images.createImage(`
-. # . # .
-. # . # .
-. # # # .
-. # . # .
-. # . # .
+# . # . .
+# . # . .
+# # # . .
+# . # . .
+# . # . .
 `)
 const betterI = images.createImage(`
-. # # # .
-. . # . .
-. . # . .
-. . # . .
-. # # # .
+# # # . .
+. # . . .
+. # . . .
+. # . . .
+# # # . .
 `)
 const betterJ = images.createImage(`
-. . # # #
-. . . # .
-. . . # .
-. # . # .
-. . # # .
+. # # # .
+. . # . .
+. . # . .
+# . # . .
+. # # . .
 `)
 const betterK = images.createImage(`
-. # . # .
-. # . # .
-. # # . .
-. # . # .
-. # . # .
+# . # . .
+# . # . .
+# # . . .
+# . # . .
+# . # . .
 `)
 const betterL = images.createImage(`
-. # . . .
-. # . . .
-. # . . .
-. # . . .
-. # # # .
+# . . . .
+# . . . .
+# . . . .
+# . . . .
+# # # . .
 `)
 const betterM = images.createImage(`
 # . . . #
@@ -173,25 +173,25 @@ const betterM = images.createImage(`
 # . . . #
 `)
 const betterN = images.createImage(`
-# . . . #
-# # . . #
-# . # . #
-# . . # #
-# . . . #
+# . . # .
+# # . # .
+# . # # .
+# . . # .
+# . . # .
 `)
 const betterO = images.createImage(`
-. . # . .
-. # . # .
-. # . # .
-. # . # .
-. . # . .
+. # # . .
+# . . # .
+# . . # .
+# . . # .
+. # # . .
 `)
 const betterP = images.createImage(`
-. # # . .
-. # . # .
-. # # . .
-. # . . .
-. # . . .
+# # . . .
+# . # . .
+# # . . .
+# . . . .
+# . . . .
 `)
 const betterQ = images.createImage(`
 . # # . .
@@ -201,32 +201,32 @@ const betterQ = images.createImage(`
 . . . # #
 `)
 const betterR = images.createImage(`
-. . # . .
-. # . # .
-. # # . .
-. # . # .
-. # . # .
+. # . . .
+# . # . .
+# # . . .
+# . # . .
+# . # . .
 `)
 const betterS = images.createImage(`
-. . # # .
+. # # . .
+# . . . .
 . # . . .
 . . # . .
-. . . # .
-. # # . .
+# # . . .
 `)
 const betterT = images.createImage(`
-. # # # .
-. . # . .
-. . # . .
-. . # . .
-. . # . .
+# # # . .
+. # . . .
+. # . . .
+. # . . .
+. # . . .
 `)
 const betterU = images.createImage(`
-. # . # .
-. # . # .
-. # . # .
-. # . # .
-. . # . .
+# . . # .
+# . . # .
+# . . # .
+# . . # .
+. # # . .
 `)
 const betterV = images.createImage(`
 # . . . #
@@ -243,18 +243,18 @@ const betterW = images.createImage(`
 . # . # .
 `)
 const betterX = images.createImage(`
-. # . # .
-. # . # .
-. . # . .
-. # . # .
-. # . # .
+# . # . .
+# . # . .
+. # . . .
+# . # . .
+# . # . .
 `)
 const betterY = images.createImage(`
-. # . # .
-. # . # .
-. . # . .
-. . # . .
-. . # . .
+# . # . .
+# . # . .
+. # . . .
+. # . . .
+. # . . .
 `)
 const betterZ = images.createImage(`
 # # # # #
@@ -265,87 +265,87 @@ const betterZ = images.createImage(`
 `)
 const bettera = images.createImage(`
 . . . . .
-. # # # .
-. # . # .
-. # # # .
-. . . # .
+# # # . .
+# . # . .
+# # # . .
+. . # . .
 `)
 const betterb = images.createImage(`
-. # . . .
-. # . . .
-. # # # .
-. # . # .
-. # # # .
+# . . . .
+# . . . .
+# # # . .
+# . # . .
+# # # . .
 `)
 const betterc = images.createImage(`
 . . . . .
 . . . . .
-. . # # .
-. # . . .
-. . # # .
+. # # . .
+# . . . .
+. # # . .
 `)
 const betterd = images.createImage(`
-. . . # .
-. . . # .
-. # # # .
-. # . # .
-. # # # .
+. . # . .
+. . # . .
+# # # . .
+# . # . .
+# # # . .
 `)
 const bettere = images.createImage(`
-. . # # .
-. # . . #
-. # # # .
-. # . . .
-. . # # .
+. # # . .
+# . . # .
+# # # . .
+# . . . .
+. # # . .
 `)
 const betterf = images.createImage(`
-. . . # .
 . . # . .
-. # # # .
-. . # . .
-. . # . .
+. # . . .
+# # # . .
+. # . . .
+. # . . .
 `)
 const betterg = images.createImage(`
+. # . . .
+# . # . .
+. # # . .
 . . # . .
-. # . # .
-. . # # .
-. . . # .
-. . # . .
+# # . . .
 `)
 const betterh = images.createImage(`
-. # . . .
-. # . . .
-. # # . .
-. # . # .
-. # . # .
+# . . . .
+# . . . .
+# # . . .
+# . # . .
+# . # . .
 `)
 const betteri = images.createImage(`
-. . # . .
+. # . . .
 . . . . .
-. . # . .
-. . # . .
-. . # . .
+# # . . .
+. # . . .
+# # # . .
 `)
 const betterj = images.createImage(`
-. . . # .
-. . . . .
-. . . # .
-. # . # .
 . . # . .
+. . . . .
+. . # . .
+# . # . .
+. # . . .
 `)
 const betterk = images.createImage(`
 . . . . .
-. # . . .
-. # . # .
-. # # . .
-. # . # .
+# . . . .
+# . # . .
+# # . . .
+# . # . .
 `)
 const betterl = images.createImage(`
-. . # . .
-. . # . .
-. . # . .
-. . # . .
-. . # . .
+# # . . .
+. # . . .
+. # . . .
+. # . . .
+# # # . .
 `)
 const betterm = images.createImage(`
 . . . . .
@@ -356,59 +356,59 @@ const betterm = images.createImage(`
 `)
 const bettern = images.createImage(`
 . . . . .
-. # # . .
-. # . # .
-. # . # .
-. # . # .
+# # . . .
+# . # . .
+# . # . .
+# . # . .
 `)
 const bettero = images.createImage(`
 . . . . .
-. . # . .
-. # . # .
-. # . # .
-. . # . .
+. # . . .
+# . # . .
+# . # . .
+. # . . .
 `)
 const betterp = images.createImage(`
 . . . . .
-. . # . .
-. # . # .
-. # # . .
 . # . . .
+# . # . .
+# # . . .
+# . . . .
 `)
 const betterq = images.createImage(`
 . . . . .
+. # . . .
+# . # . .
+. # # . .
 . . # . .
-. # . # .
-. . # # .
-. . . # .
 `)
 const betterr = images.createImage(`
 . . . . .
-. . # . .
-. # . # .
 . # . . .
-. # . . .
+# . # . .
+# . . . .
+# . . . .
 `)
 const betters = images.createImage(`
-. . # # .
+. # # . .
+# . . . .
 . # . . .
 . . # . .
-. . . # .
-. # # . .
+# # . . .
 `)
 const bettert = images.createImage(`
 . . . . .
-. . # . .
-. # # # .
-. . # . .
-. . # . .
+. # . . .
+# # # . .
+. # . . .
+. # . . .
 `)
 const betteru = images.createImage(`
 . . . . .
 . . . . .
-. # . # .
-. # . # .
-. . # . .
+# . # . .
+# . # . .
+. # . . .
 `)
 const betterv = images.createImage(`
 . . . . .
@@ -427,16 +427,16 @@ const betterw = images.createImage(`
 const betterx = images.createImage(`
 . . . . .
 . . . . .
-. # . # .
-. . # . .
-. # . # .
+# . # . .
+. # . . .
+# . # . .
 `)
 const bettery = images.createImage(`
 . . . . .
 . . . . .
-. # . # .
-. . # . .
+# . # . .
 . # . . .
+# . . . .
 `)
 const betterz = images.createImage(`
 . . . . .
@@ -445,69 +445,213 @@ const betterz = images.createImage(`
 . # . . .
 # # # # .
 `)
+const betterTilde = images.createImage(`
+. . . . .
+# # . . .
+. . # # .
+. . . . .
+. . . . .
+`)
+const betterAt = images.createImage(`
+. # # # .
+# . . . #
+# . # . #
+# . . # #
+. # # . .
+`)
+const betterAsterisk = images.createImage(`
+. # . # .
+. . # . .
+. # . # .
+. . . . .
+. . . . .
+`)
+const betterQuestion = images.createImage(`
+# # . . .
+. . # . .
+. # . . .
+. . . . .
+. # . . .
+`)
+const betterExclamation = images.createImage(`
+. # . . .
+. # . . .
+. # . . .
+. . . . .
+. # . . .
+`)
+const betterHash = images.createImage(`
+. # . # .
+# # # # #
+. # . # .
+# # # # #
+. # . # .
+`)
+const betterDollar = images.createImage(`
+. # # # .
+# . # . .
+. # # # .
+. . # . #
+. # # # .
+`)
+const betterPercent = images.createImage(`
+# # . . #
+# # . # .
+. . # . .
+. # . # #
+# . . # #
+`)
+const betterUp = images.createImage(`
+. . # . .
+. # . # .
+. . . . .
+. . . . .
+. . . . .
+`)
+const betterOpenPar = images.createImage(`
+. . # . .
+. # . . .
+. # . . .
+. # . . .
+. . # . .
+`)
+const betterClosePar = images.createImage(`
+. # . . .
+. . # . .
+. . # . .
+. . # . .
+. # . . .
+`)
+const betterOpenBracket = images.createImage(`
+. # # . .
+. # . . .
+. # . . .
+. # . . .
+. # # . .
+`)
+const betterCloseBracket = images.createImage(`
+. # # . .
+. . # . .
+. . # . .
+. . # . .
+. # # . .
+`)
+const betterOpenBrace = images.createImage(`
+. # # . .
+. # . . .
+# # . . .
+. # . . .
+. # # . .
+`)
+const betterCloseBrace = images.createImage(`
+. # # . .
+. . # . .
+. . # # .
+. . # . .
+. # # . .
+`)
+const betterSlash = images.createImage(`
+. . . # .
+. . # . .
+. . # . .
+. # . . .
+. # . . .
+`)
+const betterColon = images.createImage(`
+. . . . .
+. # . . .
+. . . . .
+. # . . .
+. . . . .
+`)
+const betterSemicolon = images.createImage(`
+. . . . .
+. # . . .
+. . . . .
+. # . . .
+# . . . .
+`)
+const betterSingleQuote = images.createImage(`
+. # . . .
+. # . . .
+. . . . .
+. . . . .
+. . . . .
+`)
+const betterDoubleQuote = images.createImage(`
+# . # . .
+# . # . .
+. . . . .
+. . . . .
+. . . . .
+`)
+const betterPlus = images.createImage(`
+. . . . .
+. . # . .
+. # # # .
+. . # . .
+. . . . .
+`)
+const betterMinus = images.createImage(`
+. . . . .
+. . . . .
+. # # # .
+. . . . .
+. . . . .
+`)
+const betterUnderscore = images.createImage(`
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+# # # # #
+`)
+const betterEquals = images.createImage(`
+. . . . .
+# # # # .
+. . . . .
+# # # # .
+. . . . .
+`)
+const betterLess = images.createImage(`
+. . . # #
+. # # . .
+# . . . .
+. # # . .
+. . . # #
+`)
+const betterGreater = images.createImage(`
+# # . . .
+. . # # .
+. . . . #
+. . # # .
+# # . . .
+`)
+const betterPeriod = images.createImage(`
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+. # . . .
+`)
+const betterComma = images.createImage(`
+. . . . .
+. . . . .
+. . . . .
+. # . . .
+# . . . .
+`)
 
-betterChars.push(betterZero);
-betterChars.push(betterOne);
-betterChars.push(betterTwo);
-betterChars.push(betterThree);
-betterChars.push(betterFour);
-betterChars.push(betterFive);
-betterChars.push(betterSix);
-betterChars.push(betterSeven);
-betterChars.push(betterEight);
-betterChars.push(betterNine);
-betterChars.push(betterA);
-betterChars.push(betterB);
-betterChars.push(betterC);
-betterChars.push(betterD);
-betterChars.push(betterE);
-betterChars.push(betterF);
-betterChars.push(betterG);
-betterChars.push(betterH);
-betterChars.push(betterI);
-betterChars.push(betterJ);
-betterChars.push(betterK);
-betterChars.push(betterL);
-betterChars.push(betterM);
-betterChars.push(betterN);
-betterChars.push(betterO);
-betterChars.push(betterP);
-betterChars.push(betterQ);
-betterChars.push(betterR);
-betterChars.push(betterS);
-betterChars.push(betterT);
-betterChars.push(betterU);
-betterChars.push(betterV);
-betterChars.push(betterW);
-betterChars.push(betterX);
-betterChars.push(betterY);
-betterChars.push(betterZ);
-betterChars.push(bettera);
-betterChars.push(betterb);
-betterChars.push(betterc);
-betterChars.push(betterd);
-betterChars.push(bettere);
-betterChars.push(betterf);
-betterChars.push(betterg);
-betterChars.push(betterh);
-betterChars.push(betteri);
-betterChars.push(betterj);
-betterChars.push(betterk);
-betterChars.push(betterl);
-betterChars.push(betterm);
-betterChars.push(bettern);
-betterChars.push(bettero);
-betterChars.push(betterp);
-betterChars.push(betterq);
-betterChars.push(betterr);
-betterChars.push(betters);
-betterChars.push(bettert);
-betterChars.push(betteru);
-betterChars.push(betterv);
-betterChars.push(betterw);
-betterChars.push(betterx);
-betterChars.push(bettery);
-betterChars.push(betterz);
+/* template for creating more
+const better = images.createImage(`
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+`)
+*/
+
 
 let imageMap: { [key: string]: Image };
 imageMap = {
@@ -573,6 +717,34 @@ imageMap = {
     "x": betterx,
     "y": bettery,
     "z": betterz,
+    "~": betterTilde,
+    "@": betterAt,
+    "*": betterAsterisk,
+    "?": betterQuestion,
+    "!": betterExclamation,
+    "#": betterHash,
+    "$": betterDollar,
+    "%": betterPercent,
+    "^": betterUp,
+    "(": betterOpenPar,
+    ")": betterClosePar,
+    "[": betterOpenBracket,
+    "]": betterCloseBracket,
+    "{": betterOpenBrace,
+    "}": betterCloseBrace,
+    "/": betterSlash,
+    ":": betterColon,
+    ";": betterSemicolon,
+    "'": betterSingleQuote,
+    '"': betterDoubleQuote,
+    "+": betterPlus,
+    "-": betterMinus,
+    "_": betterUnderscore,
+    "=": betterEquals,
+    "<": betterLess,
+    ">": betterGreater,
+    ".": betterPeriod,
+    ",": betterComma,
     " ": emptyImg
 }
 
@@ -580,7 +752,7 @@ imageMap = {
 //% color="#AA278D" weight=100
 namespace betterText {
     //% block
-    export function showText(value: string, interval = 500, pause = 0) {
+    export function showText(value: string, interval = 250, pause = 0) {
         for (let i = 0; i < value.length; i++) {
             const char = value.charAt(i);
             const image = imageMap[char]; // Get the corresponding image from the map
@@ -589,8 +761,8 @@ namespace betterText {
                 image.scrollImage(1, interval);
                 basic.pause(pause);
             } else {
-                // Handle unsupported characters, perhaps display a question mark
-                basic.showString("?", interval);
+                // Handle unsupported characters: display the default character
+                basic.showString(char, interval);
             }
         }
     }
@@ -600,3 +772,5 @@ namespace betterText {
         emptyImg.scrollImage(1, time);
     }
 }
+
+betterText.showText("~!@#$%^&*():;<>,.?/{}[]", 500, 500);
