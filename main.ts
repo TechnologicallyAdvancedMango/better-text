@@ -1,10 +1,17 @@
-
 const emptyImg = images.createImage(`
 . . . . .
 . . . . .
 . . . . .
 . . . . .
 . . . . .
+`)
+
+const scrollerImg = images.createImage(`
+.
+.
+.
+.
+.
 `)
 
 const betterChars: Image[] = [];
@@ -641,6 +648,13 @@ const betterComma = images.createImage(`
 . # . . .
 # . . . .
 `)
+const betterAnd = images.createImage(`
+. # # . .
+# . . # .
+. # # . .
+# . . # .
+. # # . #
+`)
 
 /* template for creating more
 const better = images.createImage(`
@@ -745,19 +759,22 @@ imageMap = {
     ">": betterGreater,
     ".": betterPeriod,
     ",": betterComma,
+    "&": betterAnd,
     " ": emptyImg
 }
+
 
 
 //% color="#AA278D" weight=100
 namespace betterText {
     //% block
-    export function showText(value: string, interval = 250, pause = 0) {
+    export function showText(value: string, interval = 250, pause = 0, spacer: number) {
         for (let i = 0; i < value.length; i++) {
             const char = value.charAt(i);
             const image = imageMap[char]; // Get the corresponding image from the map
 
             if (image) { // Check if an image was found for the character
+                if (spacer != 0) scrollerImg.scrollImage(spacer - 1, interval);
                 image.scrollImage(1, interval);
                 basic.pause(pause);
             } else {
@@ -772,5 +789,3 @@ namespace betterText {
         emptyImg.scrollImage(1, time);
     }
 }
-
-betterText.showText("~!@#$%^&*():;<>,.?/{}[]", 500, 500);
