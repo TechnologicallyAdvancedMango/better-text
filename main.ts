@@ -765,7 +765,7 @@ imageMap = {
 
 
 
-//% color="#AA278D" weight=100
+//% color=190 weight=100 icon="\uf894" block="Better Text"
 namespace betterText {
     //% block
     export function showText(value: string, interval = 250, pause = 0, spacer: number) {
